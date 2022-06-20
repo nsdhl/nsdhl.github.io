@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    width: 100vw;
+    position: fixed;
+    padding-top: 20px;
+    /* background-color: chartreuse; */
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title1 {
+    padding: 20px;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container1 {
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(34, 31, 31);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#container2 {
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+    background-image: url(/image/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: opacity(100%); */
+    /* background-color: brown */
+}
+
+.least-container {
+    color: white;
+    height: 65%;
+    width: 60%;
+    /* background-color: chocolate; */
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-left: 47px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+a {
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+h2 {
+    font-weight: 10;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 35px;
+    word-spacing: 5px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 160px;
+    font-weight: 100;
+}
+
+a:hover {
+    color: black;
+    /* border-radius: 30px; */
+    border-bottom-width: 70px;
+    height: 2px;
+    border-color: blue;
+    /* border: solid 1px; */
+    border-bottom: solid 1px;
+}
